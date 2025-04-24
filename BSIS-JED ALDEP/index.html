@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Assignment 5 Webpage</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+        <style>
+            /* Styles for unique sections (IDs) */
+            #page-header {
+                border-bottom: 1px solid #eee;
+                padding: 15px 30px;
+                margin-bottom: 25px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background-color: #fff;
+            }
+
+            #main-content-wrapper {
+                border: 1px solid #ddd;
+                border-radius: 8px;
+                padding: 25px;
+                margin: 0 30px 25px 30px;
+                overflow: hidden;
+                display: flex;
+                align-items: center;
+                gap: 25px;
+                background-color: #fff;
+            }
+
+             #footer-section {
+                background-color: #f8f8f8;
+                border-top: 1px solid #ddd;
+                padding: 25px 30px;
+                margin: 25px 0 0 0;
+                display: flex;
+                align-items: flex-start;
+                justify-content: space-between;
+                gap: 30px;
+                border-radius: 0;
+            }
+
+            /* Specific styles for elements within IDs */
+            #main-content-wrapper > div {
+                flex-grow: 1;
+            }
+
+            #main-content-wrapper h2 {
+                font-size: 1.6rem;
+                color: #333;
+                margin-top: 0;
+                margin-bottom: 15px;
+                font-weight: 600;
+            }
+
+            #main-content-wrapper p {
+                font-size: 0.95rem;
+                color: #555;
+                margin-bottom: 20px;
+                line-height: 1.7;
+            }
+
+            #footer-section h4 {
+                margin-top: 0;
+                margin-bottom: 12px;
+                color: #444;
+                font-size: 1rem;
+                font-weight: 600;
+            }
+
+            #footer-section p {
+                margin-top: 0;
+                margin-bottom: 0;
+                font-size: 0.875rem;
+                color: #555;
+                line-height: 1.5;
+            }
+
+        </style>
+    </head>
+    <body>
+        <header id="page-header">
+            <img src="assets/img/logo.png" alt="Company Logo" style="width: 130px; height: auto; border: none; padding: 0; vertical-align: middle;">
+            <nav class="main-nav">
+                <a href="#">HOME</a>
+                <a href="#">ABOUT</a>
+                <a href="#">CONTACT</a>
+                <a href="#">INFO</a>
+            </nav>
+        </header>
+
+        <section id="main-content-wrapper">
+             <img src="assets/img/background.jpg" alt="Main Feature Image" class="feature-image">
+             <div>
+                <h2>555 tuna, the favourite of every filipino taste since 1938</h2>
+                <p>Experience the bold flavors of the Philippines with 555 Tuna — a staple in every Filipino kitchen since 1938. Packed with rich taste and high-quality ingredients, our tuna dishes are perfect for quick meals, family gatherings, or simply enjoying your favorite local flavors anytime.</p>
+                <a href="#" class="read-more-button">Read more</a>
+             </div>
+        </section>
+
+        <section class="gallery-section">
+            <div class="image-container">
+                <img src="assets/img/image1.png" alt="Gallery Image 1" class="gallery-image">
+                <div class="image-text">AFRITADA</div>
+            </div>
+            <div class="image-container">
+                <img src="assets/img/image2.png" alt="Gallery Image 2" class="gallery-image">
+                <div class="image-text">ADOBO</div>
+            </div>
+            <div class="image-container">
+                 <img src="assets/img/image3.png" alt="Gallery Image 3" class="gallery-image">
+                 <div class="image-text">SISIG</div>
+            </div>
+        </section>
+
+        <footer id="footer-section">
+            <div class="footer-column footer-image-col">
+                 <img src="assets/img/footerlogo.png" alt="Footer Image" style="width: 100%; max-width: 150px; height: auto; border: none; display: block;">
+            </div>
+            <div class="footer-column footer-links-col">
+                <h4>Quick Links</h4>
+                <ul class="quick-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Info</a></li>
+                </ul>
+            </div>
+             <div class="footer-column footer-text-col">
+                <h4>Featured Product Line</h4>
+                <p>"Bringing you authentic Filipino flavors in every can — from Afritada and Adobo to the sizzling taste of Sisig."</p>
+             </div>
+        </footer>
+    </body>
+</html>
